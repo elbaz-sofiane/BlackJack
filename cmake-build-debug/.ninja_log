@@ -1,0 +1,7 @@
+# ninja log v6
+195	382	7777712260000000	untitled2.exe	9670cce4ce25a0fb
+41	310	7777701220000000	CMakeFiles/untitled2.dir/regles.c.obj	fbaecd2933423450
+31	267	7777701220000000	CMakeFiles/untitled2.dir/resultat.c.obj	b88aaa82e6694b31
+8	263	7777714143158271	build.ninja	117727bb5bf3005
+9	194	7777712240000000	CMakeFiles/untitled2.dir/jeu.c.obj	b6ca881d31fab886
+9	198	7777711400000000	CMakeFiles/untitled2.dir/des.c.obj	1b88a4d2cbe42ae
