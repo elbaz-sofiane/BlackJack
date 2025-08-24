@@ -13,6 +13,10 @@ int le_lance() {
 
 void regles(void); //declare le fichier regles pour les afficher apres
 void afficher_des(int nouveau_lancer);
+void afficher_des2(int lance_banque);
+void afficher_des3(int lance_banque1);
+void afficher_des4(int mon_lance);
+
 
 int main(int argc, char *argv[]) {
 
@@ -36,10 +40,12 @@ int main(int argc, char *argv[]) {
 
         printf("Quel est votre mise ? (mise max : %d ) :  ", argent);  //pour la mise
         scanf("%d", &mise);
-        if (mise > argent) {
-            printf("Vous n'avez pas assez d'argent");
-            scanf("%d" , &mise);
+        while (argent < mise) {
+            printf("Vous n'avez pas assez d'argent pour cette mise\n");
+            printf(" Veuillez saisir une nouvelle mise:  ");
+            scanf("%d", &mise);
         }
+
         printf("Ok vous avez miser %d \n\n", mise);
         argent -= mise;  // Soustraire la mise de l'argent du joueur
         sleep(0.5);
@@ -49,12 +55,15 @@ int main(int argc, char *argv[]) {
         // Premier lancer pour le banquier
         lance_banque = le_lance();
         somme_banque = lance_banque;
+        afficher_des2(lance_banque);
         printf("Le banquier a eu : %d\n", lance_banque);
-
+        sleep(1);
         // Premier lancer pour le joueur
         mon_lance = le_lance();
         somme_moi = mon_lance;
+        afficher_des4(mon_lance);
         printf("Vous avez eu : %d\n", mon_lance);
+        sleep(1);
 
         // Boucle pour relancer jusqu'à ce que le joueur arrête ou dépasse 21
         while (1) { //initialise une boucle infinie
@@ -84,6 +93,7 @@ int main(int argc, char *argv[]) {
                 sleep(1);
                 lance_banque1 = le_lance();
                 somme_banque += lance_banque1;
+                afficher_des3(lance_banque1);
                 printf("La banque relance et a maintenant %d.\n", somme_banque);
             }
 
