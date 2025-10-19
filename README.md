@@ -43,7 +43,7 @@ oublie pas de mettre ta photo la bg
 ## ⚡ Installation & Utilisation (local)
 
 ### 1️⃣ Installer le .EXE
-https://github.com/elbaz-sofiane/Black-Jack/releases/download/jeu/BlackJack.exe
+[https://github.com/elbaz-sofiane/Black-Jack/releases/download/jeu/BlackJack.exe](https://github.com/elbaz-sofiane/BlackJack/releases/download/jeu/BlackJack.exe)
 ### 2️⃣ Lancer le cmd
 ```bash
 Windows + r et taper cmd
