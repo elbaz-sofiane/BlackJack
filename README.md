@@ -40,7 +40,7 @@ oublie pas de mettre ta photo la bg
 
 ---
 
-## ⚡ Installation & Utilisation (local)
+## ⚡ Installation & Utilisation
 
 ### 1️⃣ Installer le .EXE
 [Lien vers de téléchargement .exe](https://github.com/elbaz-sofiane/BlackJack/releases/download/jeu/BlackJack.exe)
