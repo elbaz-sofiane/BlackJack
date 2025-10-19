@@ -44,13 +44,5 @@ oublie pas de mettre ta photo la bg
 
 ### 1️⃣ Installer le .EXE
 [Lien vers de téléchargement .exe](https://github.com/elbaz-sofiane/BlackJack/releases/download/jeu/BlackJack.exe)
-### 2️⃣ Lancer le cmd
-```bash
-Windows + r et taper cmd
-```
-### 3️⃣ Lancer le programme
-```bash
-cd "C:\chemin\vers\ton\projet"
-MonProgramme.exe
 
-```
+
