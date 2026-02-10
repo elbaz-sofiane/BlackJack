@@ -30,13 +30,13 @@ Affrontez la banque, lancez les dés et tentez d’atteindre 21 sans dépasser c
 
 ## 🚀 Démonstration
 
-oublie pas de mettre ta photo la bg
+<img width="539" height="253" alt="image" src="https://github.com/user-attachments/assets/93ce9822-1aeb-4e17-a46d-e86802e2af99" />
 
 ## 🛠️ Technologies utilisées
 
 - **C (C99)** – langage du programme  
 - **stdlib.h / time.h / unistd.h** – génération de nombres aléatoires et temporisation
-- **Utilisation IDE CLion
+- Utilisation **IDE CLion**
 
 ---
 
